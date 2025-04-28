@@ -132,45 +132,83 @@ export default Projects;
 
 const projectsData = [
   {
-    id: "weather-dashboard",
-    title: "Weather Dashboard",
+    id: "prepmate",
+    title: "PrepMate",
     description:
-      "A modern, responsive weather dashboard application built with React that allows users to search for any city and view its current weather information and forecasts.",
-    image: "/weather1.png",
+      "PrepMate simplifies exam preparation with a Mock Test Series, detailed Performance Analysis, integrated study materials, and a query resolution system to boost learning outcomes and exam success.",
+    image: "/prepmate.png", // Update image accordingly
     tech: [
       "React",
-      "Context API",
       "Tailwind CSS",
-      "Framer Motion",
-      "OpenWeatherMap API",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "RESTful API",
     ],
-    github: "https://github.com/aakash-kumar-singh/WeatherForecast",
-    liveLink: "https://weather-forecast-sepia-five.vercel.app/",
+    github: "https://github.com/Abhi773925",
+    liveLink: "https://insightarena.netlify.app/",
     featured: true,
-    period: "Mar 2023 - Sep 2023",
-    detailLink: "/projects/weather-dashboard",
+    period: "Sep 2024 - Dec 2024",
+    detailLink: "/projects/prepmate",
   },
   {
-    id: "car-service",
-    title: "Car Service",
+    id: "cvstudio",
+    title: "CVStudio",
     description:
-      "A fully functional car rental website with a user-friendly interface and robust backend, tailored to streamline the car rental process for customers and administrators.",
-    image: "/carservice.png",
-    tech: ["HTML", "CSS", "JavaScript", "React", "Express", "MongoDB"],
-    github: "https://github.com/aakash-kumar-singh/car-service",
-    liveLink: "https://carservice-three.vercel.app/",
+      "CVStudio streamlines the resume creation process with an intuitive Resume Builder and ATS Tracker, offering ATS optimization and real-time feedback to enhance job application success.",
+    image: "/cvstudio.png", // Update image accordingly
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "LLM",
+      "RESTful API",
+      "HTML",
+      "CSS",
+    ],
+    github: "https://github.com/Abhi773925",
+    liveLink: "https://cvstudio.netlify.app/",
     featured: true,
-    period: "Dec 2023 - Apr 2024",
+    period: "Mar 2024 - May 2024",
+    detailLink: "/projects/cvstudio",
   },
   {
-    id: "lifeguard-solutions",
-    title: "Lifeguard Solutions",
+    id: "zidio-manager",
+    title: "Zidio Manager (Internship Project)",
     description:
-      "An innovative insurance website tailored specifically for LIC field agents, aimed at streamlining their daily operations with features like premium calculator and claim management.",
-    image: "/LifeGuards.png",
-    tech: ["HTML", "CSS", "JavaScript", "jQuery", "Express"],
-    github: "https://github.com/aakash-kumar-singh/lifeguard-solutions",
-    liveLink: "https://lifeguard-gamma.vercel.app/",
-    period: "Nov 2024 - Present",
+      "Contributed to Zidio Manager during Web Development Internship, enhancing team collaboration with smart project tracking, role-based access control (Admin, Sub-Admin, Viewer), custom AI bot integration, and scalable workspace setups for startups and enterprises.",
+    image: "/zidiomanager.png", // Update image accordingly
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "RESTful API",
+    ],
+    github: "https://github.com/Abhi773925",
+    liveLink: "https://zidio-manager.vercel.app/",
+    featured: true,
+    period: "Feb 2025 - Mar 2025",
+    detailLink: "/projects/zidio-manager",
+  },
+  {
+    id: "dsa-sheet-tracker",
+    title: "DSA Sheet Tracker (Ongoing Project)",
+    description:
+      "A personal platform for tracking DSA progress efficiently across famous sheets like Striver's SDE Sheet, Love Babbar's DSA Sheet, and Leetcode Top 150. Features include categorized questions, daily targets, progress tracking, filtering by difficulty, and bookmarking unsolved problems.",
+    image: "/dsasheettracker.png", // Update image accordingly
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+    github: "https://github.com/Abhi773925", // Update if separate repo
+    liveLink: "https://www.prepmate.site/", // Update when live
+    featured: true,
+    period: "Apr 2025 - Present",
+    detailLink: "/projects/dsa-sheet-tracker",
   },
 ];

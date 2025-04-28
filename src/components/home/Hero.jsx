@@ -32,17 +32,17 @@ const Hero = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/aakash-kumar-singh",
+      href: "https://github.com/Abhishek-kumar-singh",
       label: "GitHub Profile",
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/aakash82",
+      href: "https://linkedin.com/in/Abhishek82",
       label: "LinkedIn Profile",
     },
     {
       icon: Mail,
-      href: "mailto:aakashkumarsingh824301@gmail.com",
+      href: "mailto:rockabhisheksingh778189@gmail.com",
       label: "Email Me",
     },
   ];
@@ -86,7 +86,7 @@ const Hero = () => {
              {" "}
             <img
               src="../../../public/myPIC.png" // Update this path with your actual image file
-              alt="Aakash Kumar Singh"
+              alt="Abhishek Kumar"
               className="w-52 h-auto rounded-full object-cover border-4 border-primary-600 shadow-lg"
             />
           </motion.div> */}
@@ -101,7 +101,7 @@ const Hero = () => {
                 Hi, I'm{" "}
               </span>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400">
-                Aakash Kumar Singh
+                Abhishek Kumar
               </span>
             </h1>
           </motion.div>
@@ -168,14 +168,14 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="flex flex-col sm:flex-row justify-center items-center gap-4 text-slate-600 dark:text-slate-400 mb-8"
           >
-            <div>Aurangabad, Bihar 824301</div>
+            <div>Saran, Bihar 841222</div>
             <div className="hidden sm:block">•</div>
             <div>
               <a
-                href="tel:+919835381345"
+                href="tel:+917739254874"
                 className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
               >
-                +91-9835381345
+                +91-7739254874
               </a>
             </div>
           </motion.div>

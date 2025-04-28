@@ -3,41 +3,49 @@ import { Award, Calendar, ExternalLink } from "lucide-react";
 
 const certificationsData = [
   {
-    title: "Cloud Computing",
-    issuer: "NPTEL",
+    title: "Building Web Applications in PHP",
+    issuer: "Coursera",
     date: "Dec 2024",
-    credential: "#NPTEL123456789",
-    link: "/CloudComputing.pdf",
+    credential: "https://coursera.org/verify/Y98XQPFWEEQM",
+    link: "https://coursera.org/verify/Y98XQPFWEEQM",
   },
   {
-    title: "Server-Side JavaScript with Node.js",
+    title: "Server-side JavaScript with Node.js",
     issuer: "Coursera",
-    date: "Mar 2024",
-    credential: "#COURSERA123456789",
-    link: "https://coursera.org/verify/B4Z4QN2TLRA8",
+    date: "May 2024",
+    credential: "https://coursera.org/verify/PSP3V782SY9B",
+    link: "https://coursera.org/verify/PSP3V782SY9B",
   },
   {
-    title: "Mastering DSA with C & C++",
+    title: "HTML, CSS, and JavaScript for Web Developers",
+    issuer: "Coursera",
+    date: "May 2024",
+    credential: "#COURSERA-NoLink", // (link was not given; optional if you have it)
+    link: "#", // Can update if you find the link
+  },
+  {
+    title: "Social Networks",
+    issuer: "NPTEL",
+    date: "Apr 2024",
+    credential: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS120S25690006103892806",
+    link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS120S25690006103892806",
+  },
+  {
+    title: "Fundamentals of Management",
+    issuer: "NPTEL",
+    date: "Apr 2024",
+    credential: "#NPTEL-NoLink", // (link not found in provided file)
+    link: "#",
+  },
+  {
+    title: "C Programming Bootcamp - The Complete C Language Course",
     issuer: "Udemy",
-    date: "Nov 2023",
-    credential: "#UDEMY123456789",
-    link: "/DSA.pdf",
-  },
-  {
-    title: "Programming in C++: A hands on Introduction",
-    issuer: "Coursera",
-    date: "Nov 2023",
-    credential: "#COURSERA987654321",
-    link: "https://coursera.org/verify/specialization/JJEFX5UERSN3",
-  },
-  {
-    title: "The Bits and Bytes of Computer Networking",
-    issuer: "Coursera",
-    date: "Nov 2023",
-    credential: "#COURSERA987654321",
-    link: "https://coursera.org/verify/PVD9Q7ELRB6Y",
+    date: "Jan 2023",
+    credential: "#UDEMY-NoLink", // (link not provided)
+    link: "#",
   },
 ];
+
 
 const Certifications = () => {
   const containerVariants = {

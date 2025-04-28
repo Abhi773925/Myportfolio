@@ -21,19 +21,19 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/aakash-kumar-singh",
+      href: "https://github.com/Abhishek-kumar-singh",
       label: "GitHub",
       hoverColor: isDark ? "hover:bg-gray-800" : "hover:bg-gray-200",
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/aakash82",
+      href: "https://linkedin.com/in/Abhishek82",
       label: "LinkedIn",
       hoverColor: isDark ? "hover:bg-blue-900" : "hover:bg-blue-100",
     },
     {
       icon: Mail,
-      href: "mailto:aakashkumarsingh824301@gmail.com",
+      href: "mailto:rockabhisheksingh778189@gmail.com",
       label: "Email",
       hoverColor: isDark ? "hover:bg-red-900" : "hover:bg-red-100",
     },
@@ -99,7 +99,7 @@ const Footer = () => {
                 A
               </div>
               <span className="text-xl font-bold text-slate-900 dark:text-white">
-                Aakash
+                Abhishek
                 <span className="text-primary-500 dark:text-primary-400">
                   .dev
                 </span>
@@ -178,17 +178,16 @@ const Footer = () => {
                   className="text-primary-500 dark:text-primary-400 mt-0.5 flex-shrink-0"
                 />
                 <span className="text-slate-600 dark:text-slate-400 text-sm">
-                  Aurangabad, Bihar 824301
-                </span>
+                  Saran, Bihar 841222                </span>
               </li>
               <li>
                 <a
-                  href="mailto:aakashkumarsingh824301@gmail.com"
+                  href="mailto:rockabhisheksingh778189@gmail.com"
                   className="flex items-start gap-2 text-slate-600 dark:text-slate-400 hover:text-primary-500 dark:hover:text-primary-400 transition-colors text-sm"
                 >
                   <Mail size={16} className="mt-0.5 flex-shrink-0" />
                   <span className="break-all">
-                    aakashkumarsingh824301@gmail.com
+                    rockabhisheksingh778189@gmail.com
                   </span>
                 </a>
               </li>
@@ -216,7 +215,7 @@ const Footer = () => {
             variants={itemVariants}
             className="text-sm text-slate-600 dark:text-slate-400 flex items-center gap-1 mb-4 sm:mb-0"
           >
-            © {currentYear} Aakash Kumar Singh. Built with
+            © {currentYear} Abhishek Kumar. Built with
             <Heart
               size={14}
               className="text-red-500 dark:text-red-400 animate-pulse"

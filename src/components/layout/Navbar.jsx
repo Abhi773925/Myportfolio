@@ -151,7 +151,7 @@ const Navbar = () => {
                   </div>
                 </div>
                 <span className="text-xl font-bold text-slate-900 dark:text-white">
-                  Aakash
+                  Abhishek
                   <span className="text-primary-500 dark:text-primary-400">
                     .dev
                   </span>
@@ -265,7 +265,7 @@ const Navbar = () => {
                       A
                     </div>
                     <span className="text-lg font-bold text-slate-900 dark:text-white">
-                      Aakash
+                      Abhishek
                       <span className="text-primary-500 dark:text-primary-400">
                         .dev
                       </span>

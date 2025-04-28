@@ -152,7 +152,7 @@ const WeatherDashboardPage = () => {
                   className="flex flex-wrap gap-4"
                 >
                   <a
-                    href="https://github.com/aakash-kumar-singh/WeatherForecast"
+                    href="https://github.com/Abhishek-kumar-singh/WeatherForecast"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline flex items-center gap-2"
@@ -161,7 +161,7 @@ const WeatherDashboardPage = () => {
                     View Code
                   </a>
                   <a
-                    href="https://weather-dashboard-aakash.vercel.app"
+                    href="https://weather-dashboard-Abhishek.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary flex items-center gap-2"
@@ -366,7 +366,7 @@ const WeatherDashboardPage = () => {
                   <ul className="space-y-3">
                     <li>
                       <a
-                        href="https://github.com/aakash-kumar-singh/WeatherForecast"
+                        href="https://github.com/Abhishek-kumar-singh/WeatherForecast"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center text-slate-600 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -377,7 +377,7 @@ const WeatherDashboardPage = () => {
                     </li>
                     <li>
                       <a
-                        href="https://weather-dashboard-aakash.vercel.app"
+                        href="https://weather-dashboard-Abhishek.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center text-slate-600 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"

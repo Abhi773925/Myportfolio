@@ -5,19 +5,19 @@ import { Trophy, Star, Code, CheckCircle2 } from "lucide-react";
 const achievementsData = [
   {
     icon: Code,
-    title: "250+ Problems Solved",
+    title: "300+ Problems Solved",
     description: "Solved over 250 data structures and algorithms problems on LeetCode.",
     color: "blue",
   },
   {
     icon: Code,
-    title: "150+ Problems Solved",
+    title: "100+ Problems Solved",
     description: "Solved over 150 problems on Coding Ninja's platform.",
     color: "green",
   },
   {
     icon: Code,
-    title: "100+ Problems Solved",
+    title: "00+ Problems Solved",
     description: "Solved over 100 problems on GeeksforGeeks platform.",
     color: "orange",
   },
