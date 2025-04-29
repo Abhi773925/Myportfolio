@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ExternalLink, Github, Calendar, ArrowRight } from "lucide-react";
 // import weather from "../../assets/weather1.png";
+import code from "../../../public/code.png"
 
 const Projects = () => {
   const [hoverProject, setHoverProject] = useState(null);
@@ -176,7 +177,7 @@ const projectsData = [
     title: "Zidio Manager (Internship Project)",
     description:
       "Contributed to Zidio Manager during Web Development Internship, enhancing team collaboration with smart project tracking, role-based access control (Admin, Sub-Admin, Viewer), custom AI bot integration, and scalable workspace setups for startups and enterprises.",
-    image: "/zidiomanager.png", // Update image accordingly
+    image: "/zidio.png", // Update image accordingly
     tech: [
       "React",
       "Tailwind CSS",
@@ -196,7 +197,7 @@ const projectsData = [
     title: "DSA Sheet Tracker (Ongoing Project)",
     description:
       "A personal platform for tracking DSA progress efficiently across famous sheets like Striver's SDE Sheet, Love Babbar's DSA Sheet, and Leetcode Top 150. Features include categorized questions, daily targets, progress tracking, filtering by difficulty, and bookmarking unsolved problems.",
-    image: "/dsasheettracker.png", // Update image accordingly
+    image: code, // Update image accordingly
     tech: [
       "React",
       "Tailwind CSS",
